@@ -1,10 +1,4 @@
-'''
-
-                            Online Python Compiler.
-                Code, Compile, Run and Debug python program online.
-Write your code in this editor and press "Run" button to execute it.
-
-
+#fizzbuzz
 x = int(input())
 for i in range(1,x+1):
     if (i%3==0) and (i%5==0):
@@ -14,22 +8,22 @@ for i in range(1,x+1):
     elif i%5==0:
         print("buzz")
     else:
-        print(i)'''
+        print(i)
         
-        
+ #square pattern       
 x= int(input())
 for i in  range(x):
     for j in range(x):
         print("*",end=" ")
     print()
     
-    
+ #triangle pattrn   
 x = int(input())
 for i in range(x):
     for j in range(i+1):
       print("*",end=" ")
     print() 
-    
+  #diamond pattern  
 x= int(input())
 for i in range(x):
     for j in range(x-i-1):
@@ -43,7 +37,7 @@ for i in range(x-2,-1,-1):
     for j in range(i+1):
         print("*",end=" ")
     print()
-
+#using 4 inputs
 x= int(input())   
 for i in range(x):
     for j in range(x-i-1):
