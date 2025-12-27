@@ -1,4 +1,4 @@
-# hallow right angled tringle pattern
+# hallow triangle pattern
 n =int(input())
 for i in range(n):
     for j in range(i+1):
